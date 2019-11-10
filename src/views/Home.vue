@@ -6,7 +6,7 @@
     >
       <v-flex mb-4>
         <h1 class="display-2 font-weight-bold mb-3">
-          音楽検索画面
+          音楽検索画面？？？
         </h1>
         <v-text-field
             v-model="keyword"
