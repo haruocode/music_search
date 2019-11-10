@@ -6,7 +6,7 @@
     >
       <v-flex mb-1>
         <h1 class="display-2 font-weight-bold mb-2">
-          検索結果！
+          検索結果
         </h1>
         <p class="subheading font-weight-regular">
           検索キーワード：{{ this.$route.params.keyword }}
@@ -54,7 +54,7 @@ export default {
     albums: [],
   }),
   created(){
-    this.$axios.get(`iTunesApiUrlGoesHere!`) // see https://www.youtube.com/watch?v=8Dv23fu8G_g
+    this.$axios.get(`iTunesApiUrlGoesHere`) // see https://www.youtube.com/watch?v=8Dv23fu8G_g
       .then((response) => {
         console.log(response.data.results)
         this.albums = response.data.results
