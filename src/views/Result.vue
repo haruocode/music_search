@@ -6,7 +6,7 @@
     >
       <v-flex mb-1>
         <h1 class="display-2 font-weight-bold mb-2">
-          検索結果???
+          検索結果！
         </h1>
         <p class="subheading font-weight-regular">
           検索キーワード：{{ this.$route.params.keyword }}
