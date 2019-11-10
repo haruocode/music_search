@@ -54,7 +54,7 @@ export default {
     albums: [],
   }),
   created(){
-    this.$axios.get(`iTunesApiUrlGoesHere`) // see https://www.youtube.com/watch?v=8Dv23fu8G_g
+    this.$axios.get(`iTunesApiUrlGoesHere!`) // see https://www.youtube.com/watch?v=8Dv23fu8G_g
       .then((response) => {
         console.log(response.data.results)
         this.albums = response.data.results
